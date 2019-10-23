@@ -1,0 +1,14 @@
+CC = g++
+CFLAGS = -Wall -D__APPLE__
+PROG = particles
+
+SRCS = main.cpp floor.cpp hole.cpp particle.cpp scene.cpp bmpload.cpp vertex.cpp  canon.cpp camera.cpp  sceneobject.cpp lightbulb.cpp
+LIBS = -framework OpenGL -framework GLUT
+
+all: $(PROG)
+
+$(PROG):	$(SRCS)
+	$(CC) $(CFLAGS) -o $(PROG) $(SRCS) $(LIBS)
+
+clean:
+	rm -f $(PROG)

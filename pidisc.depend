@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1219428391 source:/home/marius/CPP/pidisc/imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1219428391 /home/marius/CPP/pidisc/imageloader.h
+
+1384315921 source:/home/marius/CPP/pidisc/main.cpp
+	<unistd.h>
+	<stdio.h>
+	"bmpload.h"
+	"scene.h"
+	"vertex.h"
+
+1219428391 /home/marius/CPP/pidisc/vec3f.h
+	<iostream>
+
+1219428391 source:/home/marius/CPP/pidisc/vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1384312038 source:/home/marius/CPP/pidisc/bmpload.cpp
+	"bmpload.h"
+	<assert.h>
+	<fstream>
+
+1384311472 /home/marius/CPP/pidisc/bmpload.h
+	<string>
+	<vector>
+	"vertex.h"
+
+1384285860 /home/marius/CPP/pidisc/vertex.h
+	<algorithm>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<vector>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<string.h>
+
+1383861275 source:/home/marius/CPP/pidisc/vertex.cpp
+	"vertex.h"
+
+1384314154 source:/home/marius/CPP/pidisc/particle.cpp
+	"particle.h"
+	"scene.h"
+
+1384235912 /home/marius/CPP/pidisc/particle.h
+	"vertex.h"
+
+1383859698 source:/home/marius/CPP/pidisc/object.cpp
+	"object.h"
+
+1384270372 /home/marius/CPP/pidisc/object.h
+
+1384228874 source:/home/marius/CPP/pidisc/shape.cpp
+
+1384228877 /home/marius/CPP/pidisc/shape.h
+
+1384312196 source:/home/marius/CPP/pidisc/floor.cpp
+	"floor.h"
+	"scene.h"
+	"particle.h"
+
+1384234203 /home/marius/CPP/pidisc/floor.h
+	"vertex.h"
+	"hole.h"
+	<vector>
+
+1383862883 /home/marius/CPP/pidisc/hole.h
+
+1383862669 source:/home/marius/CPP/pidisc/hole.cpp
+	"hole.h"
+
+1384312934 /home/marius/CPP/pidisc/scene.h
+	<vector>
+	<list>
+	"vertex.h"
+	"floor.h"
+	"particle.h"
+	"camera.h"
+	"lightbulb.h"
+
+1384315204 source:/home/marius/CPP/pidisc/scene.cpp
+	<unistd.h>
+	"scene.h"
+	"bmpload.h"
+
+1384287375 source:/home/marius/CPP/pidisc/camera.cpp
+	"camera.h"
+
+1384285792 /home/marius/CPP/pidisc/camera.h
+	"vertex.h"
+
+1384268385 source:/home/marius/CPP/pidisc/canon.cpp
+	"canon.h"
+
+1384269443 /home/marius/CPP/pidisc/canon.h
+	"object.h"
+
+1384313201 source:/home/marius/CPP/pidisc/lightbulb.cpp
+	"lightbulb.h"
+
+1384313018 /home/marius/CPP/pidisc/lightbulb.h
+	"vertex.h"
+
+1384286370 source:/home/marius/CPP/pidisc/sceneobject.cpp
+	"sceneobject.h"
+
+1384270419 /home/marius/CPP/pidisc/sceneobject.h
+	"vertex.h"
+
